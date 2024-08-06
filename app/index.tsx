@@ -1,5 +1,9 @@
-import { Text } from 'react-native';
+import { Text,PaperProvider } from 'react-native-paper';
 
 export default function Page() {
-  return <Text>Top-level page</Text>;
+  return (
+    <PaperProvider>
+      <Text variant="displayLarge">Display Large</Text>
+    </PaperProvider>
+  );
 }
