@@ -1,7 +1,7 @@
 {
   "name": "wecute-blank-tsx",
   "version": "1.0.0",
-  "main": "expo-router/entry",
+  "main": "expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -12,12 +12,13 @@
     "@babel/plugin-transform-export-namespace-from": "^7.24.7",
     "@expo/metro-runtime": "~3.2.1",
     "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-navigation/bottom-tabs": "^6.6.1",
     "@react-navigation/drawer": "^6.7.2",
+    "@react-navigation/native": "^6.1.18",
     "@react-navigation/stack": "^6.4.1",
     "expo": "^51.0.24",
     "expo-constants": "~16.0.2",
     "expo-linking": "~6.3.1",
-    "expo-router": "~3.5.20",
     "expo-status-bar": "~1.12.1",
     "expo-updates": "~0.25.21",
     "react": "18.2.0",
