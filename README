@@ -7,7 +7,7 @@
 `npx expo install react-dom react-native-web @expo/metro-runtime`
 `npx expo install expo-router react-native-safe-area-context` `react-native-screens expo-linking expo-constants expo-status-bar`
 
-Dont for get to config in package.json and app.json
+*Dont for get to config in package.json and app.json*
 https://docs.expo.dev/router/installation/#quick-start
 
 If any problems:
@@ -20,8 +20,6 @@ If any problems:
 `npm install react-native-safe-area-context`   
 `npm install react-native-vector-icons`
 
-
-
 #### Add React Native Paper Examples
 `npx expo install @react-native-async-storage/async-storage`
 `npx expo install @react-navigation/drawer`                      
@@ -30,6 +28,10 @@ If any problems:
 `npx expo install react-native-reanimated`                      
 `npx expo install react-native-gesture-handler`
 `npx expo install @babel/plugin-transform-export-namespace-from`
+
+*Don't for get to check the docs for reanimated*
+
+https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/
 
 // TODO check `Require cycles are allowed` error
 // TODO example can not scroll on web
