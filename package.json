@@ -1,7 +1,7 @@
 {
   "name": "wecute-blank-tsx",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -19,6 +19,7 @@
     "expo": "^51.0.24",
     "expo-constants": "~16.0.2",
     "expo-linking": "~6.3.1",
+    "expo-router": "~3.5.20",
     "expo-status-bar": "~1.12.1",
     "expo-updates": "~0.25.21",
     "react": "18.2.0",
