@@ -1,0 +1,35 @@
+
+#### Create App from blank-typescript template
+`npx create-expo-app@latest --template blank-typescript`
+
+#### Enable Expo Router and Web support
+
+`npx expo install react-dom react-native-web @expo/metro-runtime`
+`npx expo install expo-router react-native-safe-area-context` `react-native-screens expo-linking expo-constants expo-status-bar`
+
+Dont for get to config in package.json and app.json
+https://docs.expo.dev/router/installation/#quick-start
+
+If any problems:
+`npm remove expo`
+`rm .\node_modules\`
+`yarn add expo`
+
+#### Enable React Native Paper
+`npm install react-native-paper`
+`npm install react-native-safe-area-context`   
+`npm install react-native-vector-icons`
+
+
+
+#### Add React Native Paper Examples
+`npx expo install @react-native-async-storage/async-storage`
+`npx expo install @react-navigation/drawer`                      
+`npx expo install @react-navigation/stack`                       
+`npx expo install expo-updates`                                  
+`npx expo install react-native-reanimated`                      
+`npx expo install react-native-gesture-handler`
+`npx expo install @babel/plugin-transform-export-namespace-from`
+
+// TODO check `Require cycles are allowed` error
+// TODO example can not scroll on web
