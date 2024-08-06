@@ -221,7 +221,6 @@ export default function PaperExample() {
       <PreferencesContext.Provider value={preferences}>
         <React.Fragment>
           <NavigationContainer
-            independent={true}
             theme={combinedTheme}
             initialState={initialState}
             onStateChange={(state) =>

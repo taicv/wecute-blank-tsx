@@ -1,9 +1,7 @@
 import * as React from 'react';
+
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { LogBox } from 'react-native';
-LogBox.ignoreLogs(['Require cycle:']);
-
 import {
   InitialState,
   NavigationContainer,
@@ -192,7 +190,6 @@ export default function PaperExample() {
       <PreferencesContext.Provider value={preferences}>
         <React.Fragment>
           <NavigationContainer
-            independent={true}
             theme={combinedTheme}
             initialState={initialState}
             onStateChange={(state) =>
